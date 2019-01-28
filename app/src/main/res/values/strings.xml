@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Tarea1</string>
+    <string name="pnombre">nombre</string>
+    <string name="ptelefono">telefono</string>
+    <string name="pemail">email</string>
+    <string name="pfecha">fecha</string>
+    <string name="pdescripcion">descripcion</string>
+    <string name="texto_boton">Siguiente</string>
+
+</resources>

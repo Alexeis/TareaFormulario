@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="nombre">33dp</dimen>
+    <dimen name="ancho_edit_text">300dp</dimen>
+    <dimen name="layout_top">20dp</dimen>
+    <dimen name="text_height">25dp</dimen>
+    <dimen name="left">10dp</dimen>
+    <dimen name="sep_top">10dp</dimen>
+</resources>

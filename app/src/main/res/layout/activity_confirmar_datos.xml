@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ConfirmarDatos">
+
+    <TextView
+        android:id="@+id/tvTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:text="Confirmar Datos"
+        android:layout_margin="@dimen/layout_top"
+        app:fontFamily="sans-serif" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="nombre"
+        android:layout_marginLeft="@dimen/layout_top"
+        app:fontFamily="sans-serif" />
+
+    <TextView
+        android:id="@+id/tvFecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Fecha nacimiento:"
+        android:layout_marginLeft="@dimen/layout_top"
+        android:layout_marginTop="@dimen/sep_top"
+        app:fontFamily="sans-serif" />
+
+    <TextView
+        android:id="@+id/tvTel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Tel:"
+        android:layout_marginLeft="@dimen/layout_top"
+        android:layout_marginTop="@dimen/sep_top"
+        app:fontFamily="sans-serif" />
+
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Email:"
+        android:layout_marginLeft="@dimen/layout_top"
+        android:layout_marginTop="@dimen/sep_top"
+        app:fontFamily="sans-serif" />
+
+    <TextView
+        android:id="@+id/tvDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Descripción:"
+        android:layout_marginLeft="@dimen/layout_top"
+        android:layout_marginTop="@dimen/sep_top"
+        app:fontFamily="sans-serif" />
+
+    <Button
+        android:id="@+id/btnEditar"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/layout_top"
+        android:elegantTextHeight="true"
+        android:background="@color/colorPrimaryDark"
+        android:text="Editar Datos" />
+
+</LinearLayout>
