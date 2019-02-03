@@ -35,7 +35,7 @@ public class ConfirmarDatos extends AppCompatActivity {
         vtFecha          = findViewById(R.id.tvFecha);
         vtDescripcion    = findViewById(R.id.tvDescripcion);
 
-        vtNombre.setText("Nombre " + nombre);
+        vtNombre.setText("Nombre: " + nombre);
         vtTelefono.setText("Tel: " + telefono);
         vtEmail.setText("Email: " + email);
         vtFecha.setText("Fecha Nacimiento: " + fecha);
